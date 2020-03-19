@@ -11,9 +11,8 @@ const app = express();
 const bodyparser = require('body-parser');
 const http = require('http').Server(app);
 const fs = require('fs');
-const front_io = require('socket.io')(http);
-const backend_io = require('socket.io-client')('http://localhost:8080');
-const PORT = process.env.PORT || 80;
+const io = require('socket.io')(http);
+const PORT = process.env.PORT || 8080;
 
 
 app.use((req, res, next) => {
@@ -33,14 +32,10 @@ app.options('*', (req, res) => {
   res.sendStatus(200);
 });
 
-app.use(express.static(__dirname + '/'));
-
-app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'));
-
-backend_io.on('connect', () => {
-  console.log('websocket router connect!');
-  backend_io.on('routing_data', sensor_data => {
-    front_io.emit('sensor_data', sensor_data);
+io.on('connection', socket => {
+  socket.on('current_data', msg => {
+    let data = JSON.parse(msg);
+    io.emit('routing_data', data);
   });
 });
 
