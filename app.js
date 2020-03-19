@@ -13,7 +13,7 @@ const http = require('http').Server(app);
 const fs = require('fs');
 const front_io = require('socket.io')(http);
 const backend_io = require('socket.io-client')('http://52.68.63.131:8080');
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 8000;
 
 
 app.use((req, res, next) => {
