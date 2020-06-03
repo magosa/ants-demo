@@ -12,7 +12,7 @@ const bodyparser = require('body-parser');
 const http = require('http').Server(app);
 const fs = require('fs');
 const front_io = require('socket.io')(http);
-const backend_io = require('socket.io-client')('http://52.68.63.131:8080');
+const backend_io = require('socket.io-client')('http://localhost:8080');
 const PORT = process.env.PORT || 8000;
 
 
