@@ -14,9 +14,11 @@ You can get basic skills for making physics simulations.
 # Requirement
 
 * Python 3.6.5
+
 Environments under [Anaconda for Windows](https://www.anaconda.com/distribution/) is teste
 
 * node.js 12.16.2
+
 Environments under [Node.js for Windows](https://nodejs.org/ja/) is teste
 
 # Installation
@@ -25,7 +27,7 @@ Environments under [Node.js for Windows](https://nodejs.org/ja/) is teste
 Install required libraries with pip command.
 
 ```bash
-pip install -r pypackage.txt
+pip install -r ~/pypackage.txt
 ```
 
 * Construction of dashboard environment.
