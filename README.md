@@ -2,15 +2,6 @@
 
 "ants-demo" is a program for continuity test of human flow sensing system
 
-# DEMO
-
-You can learn how to making cute physics simulations (looks retro game).
-
-![](https://cpp-learning.com/wp-content/uploads/2019/05/pyxel-190505-161951.gif)
-
-This animation is a "Cat playing on trampoline"!
-You can get basic skills for making physics simulations.
-
 # Requirement
 
 * Python 3.6.5
@@ -89,10 +80,6 @@ node app.js
 ```
 
 After starting "app.js", accessing "localhost:8000" from the web browser will display the dashboard.
-
-![](https://cpp-learning.com/wp-content/uploads/2019/05/pyxel-190505-161951.gif)
-
-
 
 # Noter
 
