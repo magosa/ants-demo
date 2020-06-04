@@ -71,7 +71,7 @@ node router.js
 
 Receive the routed sensor data from "router.js" and visualize the flow of people in real time.
 
-
+[](data/img/sample.gif)
 
 Run "app.js"
 
