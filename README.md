@@ -85,10 +85,6 @@ After starting "app.js", accessing "localhost:8000" from the web browser will di
 
 I don't test environments under Linux and Mac.
 
-# Author
-
-* magosa
-
 
 
 Thank you!
