@@ -1,16 +1,16 @@
 # ants-demo
 
-"ants-demo" is a program for continuity test of human flow sensing system
+"ants-demo" is a program for continuity test of human flow sensing system.
 
 # Requirement
 
 * Python 3.6.5
 
-Environments under [Anaconda for Windows](https://www.anaconda.com/distribution/) is teste
+Environments under [Anaconda for Windows](https://www.anaconda.com/distribution/) is tested.
 
 * node.js 12.16.2
 
-Environments under [Node.js for Windows](https://nodejs.org/ja/) is teste
+Environments under [Node.js for Windows](https://nodejs.org/ja/) is tested.
 
 # Installation
 
@@ -57,7 +57,7 @@ python current_sender.py C:\Users\magosa\Desktop\ants-demo\test.csv
 
 "router.js" receives sensor data in real time using web socket and routes to API server.
 
-"router.js" uses port 8080 when using web sockets.
+"router.js" uses port 8080 when using web socket.
 
 Run "router.js"
 
@@ -71,8 +71,6 @@ node router.js
 
 Receive the routed sensor data from "router.js" and visualize the flow of people in real time.
 
-![](https://raw.githubusercontent.com/magosa/ants-demo/master/data/img/sample.gif)
-
 Run "app.js"
 
 ```bash
@@ -80,6 +78,8 @@ node app.js
 ```
 
 After starting "app.js", accessing "localhost:8000" from the web browser will display the dashboard.
+
+![](https://raw.githubusercontent.com/magosa/ants-demo/master/data/img/sample.gif)
 
 # Noter
 
