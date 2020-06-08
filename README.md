@@ -81,7 +81,7 @@ After starting "app.js", accessing "localhost:8000" from the web browser will di
 
 ![](https://raw.githubusercontent.com/magosa/ants-demo/master/data/img/sample.gif)
 
-# Noter
+# Note
 
 I don't test environments under Linux and Mac.
 
