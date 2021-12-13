@@ -79,7 +79,7 @@ node app.js
 
 After starting "app.js", accessing "localhost:8000" from the web browser will display the dashboard.
 
-![](https://raw.githubusercontent.com/magosa/ants-demo/master/data/img/sample.gif)
+![](https://github.com/magosa/ants-demo/blob/master/data/img/sample.gif)
 
 # Note
 
